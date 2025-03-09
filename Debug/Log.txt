@@ -1,0 +1,51 @@
+2025/03/08-13:15:48--INFO - Model đã có trong: d:/AI_Model/GPT2_Model
+2025/03/08-13:16:16--WARNING - Không có model, đang tải...
+2025/03/08-13:16:16--DEBUG - Starting new HTTPS connection (1): huggingface.co:443
+2025/03/08-13:16:17--DEBUG - https://huggingface.co:443 "HEAD /gpt2/resolve/main/config.json HTTP/1.1" 200 0
+2025/03/08-13:16:17--DEBUG - Attempting to acquire lock 1997363580608 on C:\Users\84345\.cache\huggingface\hub\.locks\models--gpt2\10c66461e4c109db5a2196bff4bb59be30396ed8.lock
+2025/03/08-13:16:17--DEBUG - Lock 1997363580608 acquired on C:\Users\84345\.cache\huggingface\hub\.locks\models--gpt2\10c66461e4c109db5a2196bff4bb59be30396ed8.lock
+2025/03/08-13:16:18--DEBUG - https://huggingface.co:443 "GET /gpt2/resolve/main/config.json HTTP/1.1" 200 665
+2025/03/08-13:16:18--DEBUG - Attempting to release lock 1997363580608 on C:\Users\84345\.cache\huggingface\hub\.locks\models--gpt2\10c66461e4c109db5a2196bff4bb59be30396ed8.lock
+2025/03/08-13:16:18--DEBUG - Lock 1997363580608 released on C:\Users\84345\.cache\huggingface\hub\.locks\models--gpt2\10c66461e4c109db5a2196bff4bb59be30396ed8.lock
+2025/03/08-13:16:19--DEBUG - https://huggingface.co:443 "HEAD /gpt2/resolve/main/model.safetensors HTTP/1.1" 302 0
+2025/03/08-13:16:19--DEBUG - Attempting to acquire lock 1997368377040 on C:\Users\84345\.cache\huggingface\hub\.locks\models--gpt2\248dfc3911869ec493c76e65bf2fcf7f615828b0254c12b473182f0f81d3a707.lock
+2025/03/08-13:16:19--DEBUG - Lock 1997368377040 acquired on C:\Users\84345\.cache\huggingface\hub\.locks\models--gpt2\248dfc3911869ec493c76e65bf2fcf7f615828b0254c12b473182f0f81d3a707.lock
+2025/03/08-13:16:19--DEBUG - Starting new HTTPS connection (1): cdn-lfs.hf.co:443
+2025/03/08-13:16:19--DEBUG - https://cdn-lfs.hf.co:443 "GET /gpt2/248dfc3911869ec493c76e65bf2fcf7f615828b0254c12b473182f0f81d3a707?response-content-disposition=inline%3B+filename*%3DUTF-8%27%27model.safetensors%3B+filename%3D%22model.safetensors%22%3B&Expires=1741418179&Policy=eyJTdGF0ZW1lbnQiOlt7IkNvbmRpdGlvbiI6eyJEYXRlTGVzc1RoYW4iOnsiQVdTOkVwb2NoVGltZSI6MTc0MTQxODE3OX19LCJSZXNvdXJjZSI6Imh0dHBzOi8vY2RuLWxmcy5oZi5jby9ncHQyLzI0OGRmYzM5MTE4NjllYzQ5M2M3NmU2NWJmMmZjZjdmNjE1ODI4YjAyNTRjMTJiNDczMTgyZjBmODFkM2E3MDc~cmVzcG9uc2UtY29udGVudC1kaXNwb3NpdGlvbj0qIn1dfQ__&Signature=hb0XCnOeSuso1MuInvsTwVoZTH5HBrH4tcFyKrkPDsC2sOdgivbL0wQN1uiBJOXfMA5UeSNcdVujaAwaj4NMal-h5EynxXKeY-TK2KTOSpMf61EfBBOH52Uuv1Tcvlt8qfC2NMSy~MvBMYRoVmZ2FzatwAP0VCEFooScbx2-SrhFTJMuqyH156c4zBelrAGrd3D1aTmNDQBa-tw9bpznvXLaBVQKZPLXzK3A8G6G-TT4XvYHoxBlb0sADWrdV7mfZzOeR7EHcBL69bq7M9ooy9-J8~daZ~ZMaUfVKUu4M9z69IxSCBz6gcU~-TpRktfQ3~klm6w2V9YW3FKwkJo-LQ__&Key-Pair-Id=K3RPWS32NSSJCE HTTP/1.1" 200 548105171
+2025/03/08-13:16:47--DEBUG - Attempting to release lock 1997368377040 on C:\Users\84345\.cache\huggingface\hub\.locks\models--gpt2\248dfc3911869ec493c76e65bf2fcf7f615828b0254c12b473182f0f81d3a707.lock
+2025/03/08-13:16:47--DEBUG - Lock 1997368377040 released on C:\Users\84345\.cache\huggingface\hub\.locks\models--gpt2\248dfc3911869ec493c76e65bf2fcf7f615828b0254c12b473182f0f81d3a707.lock
+2025/03/08-13:16:48--DEBUG - https://huggingface.co:443 "HEAD /gpt2/resolve/main/generation_config.json HTTP/1.1" 200 0
+2025/03/08-13:16:48--DEBUG - Attempting to acquire lock 1997369679760 on C:\Users\84345\.cache\huggingface\hub\.locks\models--gpt2\3dc481ecc3b2c47a06ab4e20dba9d7f4b447bdf3.lock
+2025/03/08-13:16:48--DEBUG - Lock 1997369679760 acquired on C:\Users\84345\.cache\huggingface\hub\.locks\models--gpt2\3dc481ecc3b2c47a06ab4e20dba9d7f4b447bdf3.lock
+2025/03/08-13:16:48--DEBUG - https://huggingface.co:443 "GET /gpt2/resolve/main/generation_config.json HTTP/1.1" 200 124
+2025/03/08-13:16:48--DEBUG - Attempting to release lock 1997369679760 on C:\Users\84345\.cache\huggingface\hub\.locks\models--gpt2\3dc481ecc3b2c47a06ab4e20dba9d7f4b447bdf3.lock
+2025/03/08-13:16:48--DEBUG - Lock 1997369679760 released on C:\Users\84345\.cache\huggingface\hub\.locks\models--gpt2\3dc481ecc3b2c47a06ab4e20dba9d7f4b447bdf3.lock
+2025/03/08-13:16:49--DEBUG - https://huggingface.co:443 "HEAD /gpt2/resolve/main/tokenizer_config.json HTTP/1.1" 200 0
+2025/03/08-13:16:49--DEBUG - Attempting to acquire lock 1997368182336 on C:\Users\84345\.cache\huggingface\hub\.locks\models--gpt2\be4d21d94f3b4687e5a54d84bf6ab46ed0f8defd.lock
+2025/03/08-13:16:49--DEBUG - Lock 1997368182336 acquired on C:\Users\84345\.cache\huggingface\hub\.locks\models--gpt2\be4d21d94f3b4687e5a54d84bf6ab46ed0f8defd.lock
+2025/03/08-13:16:49--DEBUG - https://huggingface.co:443 "GET /gpt2/resolve/main/tokenizer_config.json HTTP/1.1" 200 26
+2025/03/08-13:16:49--DEBUG - Attempting to release lock 1997368182336 on C:\Users\84345\.cache\huggingface\hub\.locks\models--gpt2\be4d21d94f3b4687e5a54d84bf6ab46ed0f8defd.lock
+2025/03/08-13:16:49--DEBUG - Lock 1997368182336 released on C:\Users\84345\.cache\huggingface\hub\.locks\models--gpt2\be4d21d94f3b4687e5a54d84bf6ab46ed0f8defd.lock
+2025/03/08-13:16:49--DEBUG - https://huggingface.co:443 "HEAD /gpt2/resolve/main/vocab.json HTTP/1.1" 200 0
+2025/03/08-13:16:49--DEBUG - Attempting to acquire lock 1997369208176 on C:\Users\84345\.cache\huggingface\hub\.locks\models--gpt2\1f1d9aaca301414e7f6c9396df506798ff4eb9a6.lock
+2025/03/08-13:16:49--DEBUG - Lock 1997369208176 acquired on C:\Users\84345\.cache\huggingface\hub\.locks\models--gpt2\1f1d9aaca301414e7f6c9396df506798ff4eb9a6.lock
+2025/03/08-13:16:49--DEBUG - https://huggingface.co:443 "GET /gpt2/resolve/main/vocab.json HTTP/1.1" 200 1042301
+2025/03/08-13:16:50--DEBUG - Attempting to release lock 1997369208176 on C:\Users\84345\.cache\huggingface\hub\.locks\models--gpt2\1f1d9aaca301414e7f6c9396df506798ff4eb9a6.lock
+2025/03/08-13:16:50--DEBUG - Lock 1997369208176 released on C:\Users\84345\.cache\huggingface\hub\.locks\models--gpt2\1f1d9aaca301414e7f6c9396df506798ff4eb9a6.lock
+2025/03/08-13:16:50--DEBUG - https://huggingface.co:443 "HEAD /gpt2/resolve/main/merges.txt HTTP/1.1" 200 0
+2025/03/08-13:16:50--DEBUG - Attempting to acquire lock 1997370279696 on C:\Users\84345\.cache\huggingface\hub\.locks\models--gpt2\226b0752cac7789c48f0cb3ec53eda48b7be36cc.lock
+2025/03/08-13:16:50--DEBUG - Lock 1997370279696 acquired on C:\Users\84345\.cache\huggingface\hub\.locks\models--gpt2\226b0752cac7789c48f0cb3ec53eda48b7be36cc.lock
+2025/03/08-13:16:51--DEBUG - https://huggingface.co:443 "GET /gpt2/resolve/main/merges.txt HTTP/1.1" 200 456318
+2025/03/08-13:16:51--DEBUG - Attempting to release lock 1997370279696 on C:\Users\84345\.cache\huggingface\hub\.locks\models--gpt2\226b0752cac7789c48f0cb3ec53eda48b7be36cc.lock
+2025/03/08-13:16:51--DEBUG - Lock 1997370279696 released on C:\Users\84345\.cache\huggingface\hub\.locks\models--gpt2\226b0752cac7789c48f0cb3ec53eda48b7be36cc.lock
+2025/03/08-13:16:52--DEBUG - https://huggingface.co:443 "HEAD /gpt2/resolve/main/tokenizer.json HTTP/1.1" 200 0
+2025/03/08-13:16:52--DEBUG - Attempting to acquire lock 1997369999712 on C:\Users\84345\.cache\huggingface\hub\.locks\models--gpt2\4b988bccc9dc5adacd403c00b4704976196548f8.lock
+2025/03/08-13:16:52--DEBUG - Lock 1997369999712 acquired on C:\Users\84345\.cache\huggingface\hub\.locks\models--gpt2\4b988bccc9dc5adacd403c00b4704976196548f8.lock
+2025/03/08-13:16:52--DEBUG - https://huggingface.co:443 "GET /gpt2/resolve/main/tokenizer.json HTTP/1.1" 200 1355256
+2025/03/08-13:16:53--DEBUG - Attempting to release lock 1997369999712 on C:\Users\84345\.cache\huggingface\hub\.locks\models--gpt2\4b988bccc9dc5adacd403c00b4704976196548f8.lock
+2025/03/08-13:16:53--DEBUG - Lock 1997369999712 released on C:\Users\84345\.cache\huggingface\hub\.locks\models--gpt2\4b988bccc9dc5adacd403c00b4704976196548f8.lock
+2025/03/08-13:16:53--DEBUG - https://huggingface.co:443 "HEAD /gpt2/resolve/main/added_tokens.json HTTP/1.1" 404 0
+2025/03/08-13:16:53--DEBUG - https://huggingface.co:443 "HEAD /gpt2/resolve/main/special_tokens_map.json HTTP/1.1" 404 0
+2025/03/08-13:16:54--DEBUG - https://huggingface.co:443 "HEAD /gpt2/resolve/main/chat_template.jinja HTTP/1.1" 404 0
+2025/03/08-13:16:55--INFO - Model đã được tải và lưu vào: d:/AI_Model/GPT2_Model
+2025/03/08  13:17:55  INFO - Hello World
