@@ -49,3 +49,6 @@
 2025/03/08-13:16:54--DEBUG - https://huggingface.co:443 "HEAD /gpt2/resolve/main/chat_template.jinja HTTP/1.1" 404 0
 2025/03/08-13:16:55--INFO - Model đã được tải và lưu vào: d:/AI_Model/GPT2_Model
 2025/03/08  13:17:55  INFO - Hello World
+2025/03/09  16:14:37  INFO - Đã kiểm tra model!
+2025/03/09  16:14:37  INFO - Đã train data teen code cho model!
+2025/03/09  16:14:37  INFO - Bắt đầu train data...
